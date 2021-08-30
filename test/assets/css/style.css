@@ -530,6 +530,8 @@ section {
 .featured .nav-link p {
   font-size: 14px;
   margin-bottom: 0;
+  text-align: center;
+
 }
 
 .featured .nav-link.active {
@@ -646,7 +648,7 @@ section {
 
 .why-us .accordion-list p {
   margin-bottom: 0;
-  padding: 10px 0 0 0;
+  padding: 10px 0 0 0;text-align: center;
 }
 
 .why-us .accordion-list .icon-show {
