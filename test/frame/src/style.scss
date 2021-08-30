@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  &:before {
+    content: 'the line game';
+    color: #fff;
+    position: fixed;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.7em;
+    mix-blend-mode: difference;
+    width: 350px;
+    text-align: center;
+  }
+}
